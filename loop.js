@@ -1,4 +1,3 @@
-// loop => for, while, do-while
 function forLoopTest() {
   const testData = [1, "Hello", 77, 90, "Ostad", "Test loop", 55, 0, 100];
   for (let i = 0; i <= testData.length - 1; i++) {
@@ -7,7 +6,7 @@ function forLoopTest() {
   }
 }
 
-// forLoopTest();
+forLoopTest();
 
 function whileLoopTest() {
   const testData = [1, "Hello", 77, 90];
